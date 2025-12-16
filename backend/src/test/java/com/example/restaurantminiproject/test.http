@@ -1,0 +1,28 @@
+### 맛집 등록
+POST http://localhost:8080/api/restaurants
+Content-Type: application/json
+
+{
+  "name": "미화닭발",
+  "category": "한식",
+  "location": "광주 동구 충장로",
+  "rating": 5,
+  "review": "닭발 진짜 맛있음"
+}
+
+### 맛집 등록 2
+
+POST http://localhost:8080/api/restaurants
+Content-Type: application/json
+
+{
+  "name": "무등산호랭이",
+  "category": "양식",
+  "location": "광주 동구 충장로",
+  "rating": 5,
+  "review": "파스타에 스테이크 먹고싶다"
+}
+
+
+### 목록 조회
+GET http://localhost:8080/api/restaurants
