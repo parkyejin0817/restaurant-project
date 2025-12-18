@@ -70,3 +70,4 @@ t3.micro가 1GB밖에 안 돼서 MySQL + Backend + Frontend 동시에 돌리니�
 - [AWS 배포 설명](./docs/04-deploy.md)
 - [CI/CD 설명](./docs/05-cicd.md)
 - [프로젝트 회고](./docs/06-retrospective.md)
+
