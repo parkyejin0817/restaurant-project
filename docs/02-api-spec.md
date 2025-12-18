@@ -1,6 +1,4 @@
 # API 명세서
-## URL
-`http://localhost:8080`
 
 ## 1. 맛집 등록
 

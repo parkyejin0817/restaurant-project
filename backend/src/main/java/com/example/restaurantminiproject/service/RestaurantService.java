@@ -23,4 +23,5 @@ public class RestaurantService {
     public List<Restaurant> findAll() {
         return restaurantRepository.findAll();
     }
+
 }

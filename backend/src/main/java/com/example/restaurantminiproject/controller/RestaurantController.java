@@ -27,4 +27,5 @@ public class RestaurantController {
     public List<Restaurant> getRestaurants() {
         return restaurantService.findAll();
     }
+
 }
