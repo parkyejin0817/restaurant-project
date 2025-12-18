@@ -28,7 +28,7 @@ export default function Home() {
     try {
       setError(null);
       setLoading(true);
-      const res = await fetch("http://localhost:8080/api/restaurants");
+      const res = await fetch("http://43.201.26.159:8080/api/restaurants");
       
       if (!res.ok) {
         throw new Error(`서버 오류: ${res.status}`);
@@ -62,7 +62,7 @@ export default function Home() {
     try {
       setError(null);
       setLoading(true);
-      const res = await fetch("http://localhost:8080/api/restaurants", {
+      const res = await fetch("http://43.201.26.159:8080/api/restaurants", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...form, rating: Number(form.rating) }),

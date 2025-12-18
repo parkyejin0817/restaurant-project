@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("http://localhost:3000")  // Next.js 포트
+                .allowedOrigins("http://localhost:3000", "http://43.201.26.159:3000")
                 .allowedMethods("GET", "POST");
     }
 }
